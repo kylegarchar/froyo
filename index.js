@@ -21,7 +21,7 @@ function countFlavors(flavors) {
 // return the falvorCounts to the console
 
 function getFlavors() {
-  const flavorInput = prompt("Please enter a list of comma-separated froyo flavors:");
+  const flavorInput = prompt(`Please enter a list of comma-separated froyo flavors:`);
   const flavors = flavorInput.split(',');
   const flavorCounts = countFlavors(flavors);
   console.log(flavorCounts);
